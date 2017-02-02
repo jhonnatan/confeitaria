@@ -17,7 +17,7 @@ h1, h2, h3{
     color: #f1f1f1;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #8f3faf;
+    background-color: #600000;
     font-size: .9em;
     border-radius: 3px;
 }
@@ -30,15 +30,17 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #4d4d4d;
+    /*background-color: #4d4d4d;*/
+    /*background-color: #1c1a1a;*/
+    background-color: #191616;
 }
 
 nav > a {
     text-decoration: none;
     color: #f1f1f1;
-    font-weight: 700;
-    font-size: 28px;
-    font-family: Pacifico, serif;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: Tangerine, Pacifico, serif;
 }
 
 nav ul {
@@ -68,7 +70,7 @@ CABEÇALHO
 */
 
 header {
-    background-image: url("../_imagens/fundo2.jpg"); 
+    background-image: url("../_imagens/fundo.jpg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,6 +80,13 @@ header {
     align-items: center;
     text-align: center;
     padding: 40px;
+}
+
+header h1 {
+    font-family: 'Great Vibes', Tangerine, Helvetica;
+    font-size: 48px;
+    font-weight: 500;
+    font-
 }
 
 header p {
@@ -94,12 +103,17 @@ SOBRE
     align-items: center;
     text-align: center;
     padding: 0 20px 20px;
-    background-color: #8f3faf;
+    background-color: #600000;
     color: #f1f1f1;
+    margin-bottom: 2.5em;
+}
+
+#sobre h2{
+    margin-top: 1em;
 }
 
 #sobre p {
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5em;   
     max-width: 1000px;
 }
 
@@ -112,7 +126,7 @@ SOBRE
 DELICIAS
 */
 
-#delicias {
+#delicias {   
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -247,17 +261,23 @@ MEDIA QUERIES
     /*
     GALERIA
     */
-    /*
+    
     #galeria {
         flex-direction: row;
-        flex-wrap: wrap;        
+        flex-wrap: wrap; 
+        
     }
 
     #galeria h2 {
         width: 100%;
         text-align: center;
     }
-
+    
+    #galeria div {
+        flex-grow: 1;      
+    }
+    
+    /*
     #galeria img {
         width: 33.33333333%;
     }
