@@ -42,9 +42,9 @@ nav {
 nav > a {
     text-decoration: none;
     color: #f1f1f1;
-    font-weight: 500;
-    font-size: 48px;
-    font-family: Tangerine, Pacifico, serif;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: Parisienne, Tangerine, Pacifico, serif;
 }
 
 nav ul {
@@ -88,7 +88,7 @@ header {
 
 
 header h1 {
-    font-family: Parisiense, 'Cinzel Decorative', 'Great Vibes', Tangerine, Helvetica;
+    font-family: Parisienne, 'Cinzel Decorative', 'Great Vibes', Tangerine, Helvetica;
     font-size: 80px;
     font-weight: 500;    
 }
@@ -227,6 +227,10 @@ footer {
     color: #f1f1f1;
 }
 
+footer div{
+    font-size: 14px;
+}
+
 /*
 MEDIA QUERIES
 */
@@ -318,7 +322,7 @@ MEDIA QUERIES
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        max-width: 500px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
