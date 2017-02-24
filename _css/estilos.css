@@ -121,7 +121,7 @@ SOBRE
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 180px 20px 180px;
+    padding: 0 20px 20px;
     background-color: #600000;
     color: #f1f1f1;
     margin-bottom: 1.5em;
@@ -134,10 +134,10 @@ SOBRE
 #sobre p {
     font-family: 'Great Vibes', Tangerine, Helvetica;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 100;
     /*margin-bottom: 1.0em;   */
     max-width: 1000px;
-    /*text-align: justify;*/
+    text-align: center;
 }
 
 #sobre .botao {
@@ -264,6 +264,8 @@ MEDIA QUERIES
         justify-content: center;
         min-height: 250px;
         text-align: justify;
+        padding: 180px 20px 180px;
+        
     }
 
     /*
