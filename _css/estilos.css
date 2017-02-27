@@ -84,12 +84,13 @@ header {
     align-items: center;
     text-align: center;
     padding: 40px;
+    /*padding:  4em;*/
 }
 
 
 header h1 {
     font-family: Parisienne, 'Cinzel Decorative', 'Great Vibes', Tangerine, Helvetica;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 500;    
 }
 
@@ -133,11 +134,11 @@ SOBRE
 
 #sobre p {
     font-family: 'Great Vibes', Tangerine, Helvetica;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 100;
     /*margin-bottom: 1.0em;   */
     max-width: 1000px;
-    text-align: center;
+    text-align: justify;
 }
 
 #sobre .botao {
@@ -254,6 +255,18 @@ MEDIA QUERIES
         height: 60vh;
         justify-content: center;
     }
+    
+    #banner div img {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: none;
+    }
+    
+    header h1 {        
+        font-size: 70px;
+        
+    }
 
     /*
     SOBRE
@@ -262,10 +275,9 @@ MEDIA QUERIES
         height: 250px;
         height: 30vh;
         justify-content: center;
-        min-height: 250px;
+        min-height: 350px;
         text-align: justify;
-        padding: 180px 20px 180px;
-        
+        padding: 180px 20px 180px;        
     }
 
     /*
@@ -328,5 +340,25 @@ MEDIA QUERIES
 
     #contato p {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    /*
+    CABEÇALHO
+    */    
+    header h1 {        
+        font-size: 80px;        
+    }
+    
+    #banner div img {
+        width: auto;    
+    }        
+
+    /*
+    SOBRE
+    */
+    #sobre {        
+        min-height: 250px;                
     }
 }
