@@ -285,7 +285,7 @@ MEDIA QUERIES
         height: 250px;
         height: 30vh;
         justify-content: justify;
-        min-height: 350px;
+        min-height: 400px;
         text-align: justify;
         padding: 30px 10px 200px;        
     }
@@ -352,6 +352,15 @@ MEDIA QUERIES
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    #banner div img {
+        width: 270px;
+    }
+    
+    #sobre {
+        min-height: 300px;    
+    }
 
 @media screen and (min-width: 1400px){
     /*
