@@ -133,7 +133,7 @@ SOBRE
 }
 
 #sobre p {
-    font-family: Rochester, Tangerine, Helvetica;
+    font-family:  'Great Vibes', Tangerine, Helvetica;
     font-size: 28px;
     font-weight: 100;
     /*margin-bottom: 1.0em;   */
@@ -271,23 +271,17 @@ MEDIA QUERIES
     /*
     SOBRE
     */
-	
-	#sobre h2{
-    	margin-top: 0px;
-	}
-
-	#sobre p {		
-		font-weight:100;	
-        font-size: 30px;
-	}
-    
     #sobre {
         height: 250px;
         height: 30vh;
-        justify-content: justify;
-        min-height: 100px;
+        justify-content: center;
+        min-height: 350px;
         text-align: justify;
-        padding: 30px 10px 200px;        
+        padding: 180px 20px 180px;        
+    }
+    
+    #sobre p {
+        font-size: 36px;
     }
 
     /*
@@ -353,7 +347,7 @@ MEDIA QUERIES
     }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1050px){
     /*
     CABEÇALHO
     */    
@@ -368,17 +362,11 @@ MEDIA QUERIES
     /*
     SOBRE
     */
-    #sobre {
-        height: 250px;
-        height: 30vh;
-        justify-content: center;
-        min-height: 150px;
-        text-align: justify;
-        padding: 130px 20px 130px;        
+    #sobre {        
+        min-height: 250px;                
     }
     
-    #sobre p {		
-		font-weight: 100;
-        font-size: 32px;
-	}
+    #sobre p {
+        font-size: 36px;
+    }
 }
