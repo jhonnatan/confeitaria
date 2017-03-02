@@ -256,17 +256,17 @@ MEDIA QUERIES
         justify-content: center;
     }
     
-    #banner div img {
-    width: 300px;
-    margin: auto;
-    text-align: center;
-    padding: none;
-    }
-    
     header h1 {        
         font-size: 70px;
         
     }
+    
+    #banner div img {
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        padding: none;
+    }    
 
     /*
     SOBRE
@@ -285,7 +285,7 @@ MEDIA QUERIES
         height: 250px;
         height: 30vh;
         justify-content: justify;
-        min-height: 100px;
+        min-height: 350px;
         text-align: justify;
         padding: 30px 10px 200px;        
     }
